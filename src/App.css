@@ -1,5 +1,12 @@
+#root{
+  height:100%
+}
+.body{
+  background-color: #a77f78;
+}
 .name{
   font-size: 5em;
+  padding-top: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: linear-gradient(90deg, #7978A7, #7a7978, #90FFDC, #90FFDC);
   -webkit-background-clip: text;
@@ -13,8 +20,11 @@
   background-position: 0 0; 
 }
 .namebox{
+  height: 400px;
+  width: 100%;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   
 }
