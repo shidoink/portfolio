@@ -1,10 +1,13 @@
-#root{
-  height:100%
-}
+
 .body{
   background-color: #a77f78;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
 }
 .name{
+  
   font-size: 5em;
   padding-top: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,11 +23,25 @@
   background-position: 0 0; 
 }
 .namebox{
-  height: 400px;
-  width: 100%;
+
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
+}
+
+.poem-container {
+  margin-bottom: 1rem;
+}
+
+.poem-title {
+  font-weight: bold;
+}
+
+.poem-content {
+  white-space: pre-wrap;
+}
+.poetry-container{
+  width: 70%
 }

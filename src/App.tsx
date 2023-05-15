@@ -12,8 +12,9 @@ function App() {
       <div className= 'name'>
         Daniel Ortega
       </div>
-      <Poemlist/>
+      
     </div>
+    <Poemlist/>
     </div>
       
     </>
