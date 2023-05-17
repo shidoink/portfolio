@@ -108,7 +108,7 @@ import {useState} from 'react'
             <button onClick={() => toggleVisibility(index)} className='poem-title'>
               {item.title}
             </button>
-            {visibleIndex === index && <pre className='poem-content'>{item.poem}</pre>}
+            <pre className={`poem-content ${visibleIndex === index ? "visible" : ""}`}>{item.poem}</pre>
           </div>
         ))}
       </div>

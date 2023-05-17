@@ -40,8 +40,38 @@
 }
 
 .poem-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out; 
+  opacity: 0;
+  transition-property: max-height, opacity;
+}
+
+.poem-content.visible {
+  max-height: 2000px;
+  opacity: 1;
   white-space: pre-wrap;
 }
+
 .poetry-container{
   width: 70%
+}
+button, input[type="button"]{
+  font-size: 1em;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(90deg, #7978A7, #7a7978, #90FFDC, #90FFDC);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+  transition: background-position 1s;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  border: none;
+}
+
+button:hover,
+input[type="button"]:hover{
+  background-position: 0 0; 
+  
 }

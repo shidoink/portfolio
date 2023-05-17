@@ -12,7 +12,6 @@ function App() {
       <div className= 'name'>
         Daniel Ortega
       </div>
-      
     </div>
     <Poemlist/>
     </div>
